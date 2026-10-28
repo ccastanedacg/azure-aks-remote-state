@@ -1,0 +1,23 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude sensitive backend configs and tfvars
+*.tfvars
+*.tfvars.json
+backend.hcl
+
+# Plans and kubeconfigs
+*.tfplan
+tfplan
+kubeconfig*
+
+# OS files
+.DS_Store

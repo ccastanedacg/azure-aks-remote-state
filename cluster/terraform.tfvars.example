@@ -1,0 +1,12 @@
+location              = "eastus2"
+environment           = "prod"
+cluster_name          = "platform"
+kubernetes_version    = "1.29"
+vnet_cidr             = "10.40.0.0/16"
+system_subnet_cidr    = "10.40.1.0/24"
+workload_subnet_cidr  = "10.40.16.0/20"
+system_node_vm_size   = "Standard_D4ds_v5"
+workload_node_vm_size = "Standard_D8ds_v5"
+workload_min_nodes    = 2
+workload_max_nodes    = 10
+log_retention_days    = 30

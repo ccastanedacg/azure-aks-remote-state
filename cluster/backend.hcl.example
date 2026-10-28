@@ -1,0 +1,5 @@
+resource_group_name  = "rg-tfstate-mgmt-eastus2"
+storage_account_name = "sttfstatexxxxxx"
+container_name       = "tfstate"
+key                  = "aks/prod.tfstate"
+use_azuread_auth     = true
